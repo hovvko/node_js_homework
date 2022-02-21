@@ -1,0 +1,12 @@
+.formTextStyle {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.userBlockStyle {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 30px;
+    background: gray;
+}
