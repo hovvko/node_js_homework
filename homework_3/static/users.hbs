@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="staticStyle.css">
+</head>
+<body>
+    {{#each users}}
+        <div class="userBlockStyle">
+            <p>First name: {{this.firstName}}</p>
+            <p>Last name: {{this.lastName}}</p>
+            <p>Email: {{this.email}}</p>
+            <p>Password: {{this.password}}</p>
+            <p>Age: {{this.age}}</p>
+            <p>City: {{this.city}}</p>
+        </div>
+    {{/each}}
+    <a href="/login">TO LOGIN</a>
+</body>
+</html>
